@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title> form </title>
+        </head>
+        <body>
+            <form action="thank.html">
+                    <h1> Application Form</h1>
+                    <p> <b> Note: </b> Form is to be filled before 21days. </p>
+                    <fieldset>
+                    <legend> Personal Details</legend>
+                    <div>
+                        <label> Name: </label>
+                        <input type="text" placeholder="enter your name">
+                        </div>
+                        <div>
+                        <label> Addresss:
+                            <input type="text" placeholder="enter your addreess">
+                        </label>
+                    </div>
+
+                    <div>
+                        <label> Email:
+                            <input type="text" placeholder="enter your email">
+                            </label>
+                        </div>
+                    <div>
+                        <label> Gender</label>
+                        <p>
+                            <input type="radio" name = "gender" value="male"checked> male<br>
+                            <input type="radio" name = "gender" value="female" > female <br>
+                            <input type="radio" name = "gender" value="other" >other
+                            </p>
+                    </div>
+                        <label> Date of birth</label>
+                        <input type="date" name="bday">
+                </fieldset>
+
+                <fieldset>
+                    <label> Check all that apply</label>
+                    <p>
+                        <input type="checkbox" value="10"> completed 10th<br>
+                        <input type="checkbox" value="12"> completed 12th<br>
+                        <input type="checkbox" value="b-tech"> completed betch<br>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <div>
+                        <label> any Disablites </label>
+                        <select id ="dropdown">
+                            <option value="yes"> Yes </option>
+                            <option value="no"> No </option>
+                            <option value="not mentioned"> Na </option>
+                        </select>
+                    </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <label> please upload a files for refernces</label>
+                        <p> Cerf for refernces</p>
+                        <input type="file">
+                    </fieldset>
+
+                    <div>
+                        <button type ="submit"> Submit </button>
+                    </div>
+
+            </form>
+        </body>
+</html>
