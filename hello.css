@@ -1,0 +1,15 @@
+h3{
+    background-color: rgb(255, 123, 0);
+
+}
+h2{
+    background-color: aqua;
+}
+
+body{
+   
+    background-image: url("https://images.ctfassets.net/hrltx12pl8hq/3Z1N8LpxtXNQhBD5EnIg8X/975e2497dc598bb64fde390592ae1133/spring-images-min.jpg");
+    height: 400px;
+    width: 400px;
+
+}
