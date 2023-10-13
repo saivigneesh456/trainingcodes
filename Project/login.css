@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    background-color: black;
+    background-image: url("https://img.freepik.com/free-vector/realistic-bokeh-background_23-2148987168.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.con{
+    background-color: white;
+    opacity: 0.7;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+.con h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(15, 14, 14);
+}
+
+.con a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(222, 132, 22);
+    padding: 15px;
+    font-family:inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.text{
+    margin-top: 30px;
+}
+
+.form{
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+.form input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px rgb(11, 176, 25) solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: black;
+}
+
+
+
+.form label{
+    position: absolute;
+    top:15px;
+    left:0;
+    pointer-events: none;
+}
