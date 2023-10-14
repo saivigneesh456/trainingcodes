@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+html, body{
+    margin:0;
+    padding:0;
+    background-image: url("https://www.hdwallpapers.in/download/abstract_color_background_picture_8016-1920x1200.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container{
+    background-image: url("https://st5.depositphotos.com/35914836/63547/i/450/depositphotos_635479512-stock-photo-brown-wooden-wall-texture-background.jpg");
+    margin: auto;
+    margin-top: 200px;/* Center the container horizontally */
+    padding: 15px;/* add margin-to for vertical centering */
+    background-color: transparent;
+    color: rgb(44, 188, 15);
+    box-shadow: 10px 5px 10px 10px rgb(6, 128, 139);
+    width: 500px;
+    height: auto;/* adjust the container height automatically */
+    position: relative;/* position relative for centering */
+    top:50%;/* Move the container up by 50% of its height */
+    transform: translateY(-50%); /* adjust for the height of the container */
+}
+
+.input-ico{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.input-ico:last-child{
+    margin-bottom: 0px;
+}
+
+.input-ico > i{
+    min-width: 40px;
+    padding: 10px;
+    text-align: 10px;
+    background-color: rgb(153, 156, 155);
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 20px;
+    color: rgb(224, 17, 17);
+} 
+
+.input-ico:hover > i {
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.input-ico > input[type="text"], .input-ico > input[type="password"]{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border: 1px solid rgb(229, 11, 11);
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius:200px ;
+    width: 100%;
+}
+
+.button input[type="submit"]{
+    border:none;
+    border-radius: 20px;
+    outline: none;
+    width: 20%;
+    margin: 0 auto;
+    font-size: 105%;
+    padding: 8px;
+    color: rgb(190, 218, 15);
+    background-color: bisque;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button input[type="submit"]:hover{
+    background-color: green;
+}
