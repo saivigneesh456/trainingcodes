@@ -1,0 +1,58 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+#outside{
+    background-color: lightgoldenrodyellow;
+    padding-top:25px;
+    padding-bottom:25px ;
+}
+
+h1{
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+form{
+    margin: 0 auto;
+    width: 70%;
+    padding: 1em;
+    border: 10px solid #d20f0f;
+    border-radius: 1em;
+}
+
+fieldset{
+    border: 1.5px solid rgb(225, 172, 13);
+}
+legend{
+    font-weight: 700;
+}
+
+div+div{
+    margin-top: 1em;
+}
+
+input, textarea {
+    width: 200px;
+    border: 1px solid grey;
+}
+
+
+button{
+    margin: .5em;
+    font-size: 1em;
+    text-transform: capitalize;
+    background-color: green;
+    color: red;
+    border: none;
+    padding: 5px;
+    border-radius:2px;
+}
+
+#submitbutton{
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,25 +1,27 @@
 <html>
     <head>
         <title> form </title>
+        <link rel="stylesheet" href="surveyform.css">
         </head>
         <body>
+            <div id="outside"> 
             <form action="thank.html">
-                    <h1> Application Form</h1>
+                    <h1> Application Form for cinema</h1>
                     <p> <b> Note: </b> Form is to be filled before 21days. </p>
                     <fieldset>
                     <legend> Personal Details</legend>
                     <div>
-                        <label> Name: </label>
+                        <label id="name-label"> Name: </label>
                         <input type="text" placeholder="enter your name">
                         </div>
                         <div>
-                        <label> Addresss:
+                        <label id="addreess-label"> Addresss:
                             <input type="text" placeholder="enter your addreess">
                         </label>
                     </div>
 
                     <div>
-                        <label> Email:
+                        <label id="email-label"> Email:
                             <input type="text" placeholder="enter your email">
                             </label>
                         </div>
@@ -60,10 +62,11 @@
                         <input type="file">
                     </fieldset>
 
-                    <div>
+                    <div id="submitbutton">
                         <button type ="submit"> Submit </button>
                     </div>
-
             </form>
+            </div>
+
         </body>
 </html>
