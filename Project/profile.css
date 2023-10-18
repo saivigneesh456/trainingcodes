@@ -1,0 +1,247 @@
+body {
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,h1,h2,h3,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: rgb(16, 160, 217);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#topbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#topbar h2{
+    margin: 0;
+    font-size: 24px;
+    color: gold;
+}
+
+#topbar ul{
+    font-size: 15px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+#topbar li{
+    display: inline;
+    margin-right: 20px;
+
+}
+
+#topbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#name{
+    font-size: 32px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#email{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/* style for about */
+
+#about{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+#about h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+#about p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/*education details */
+
+#EducationDetails{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px grey;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top: 20px ;
+}
+
+th, td{
+    border: 1px dotted grey;
+    padding: 8px;
+    text-align: left;
+}
+
+#heading{
+    background-color: rgba(207, 207, 16, 0.648);
+    color: black;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+#Skills{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+    text-align: center;
+    margin: 20px;
+}
+
+
+#Skills h3{
+    font-weight: bold;
+    text-align: center;
+}
+
+#Skills ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#Skills{
+    font-size: 18px;
+    margin: 5px 0;
+    text-align: left;
+}
+
+#Skills li:nth-child(odd){
+    color:rgb(240, 17, 17);
+}
+
+
+#Skills ul{
+    list-style-type: disc;
+    padding-left: 0; 
+}
+
+#Skills li{
+    font-size:18px;
+    margin: 5px 0;
+
+}
+
+#Projects{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px grey;
+    text-align: center;
+}
+
+#Projects h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#Projects ul{
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+.project{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.project img{
+    max-width: 100px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.description{
+    font-size: 18px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+#ContactPage{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px grey;
+    text-align: center;
+}
+
+#ContactPage h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#ContactPage ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+#ContactPage li{
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+#ContactPage i{
+    margin-right: 5px;
+    color: aqua;
+}
+
+#ContactPage a{
+    color: blue;
+    text-decoration: none;
+}
+
+#ContactPage a:hover{
+    text-decoration: underline;
+}
+
+
+
