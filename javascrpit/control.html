@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If</title>
+</head>
+<body>
+
+    <p id="a"> </p>
+    <script>
+        function greetuser(){
+            const time = new Date().getHours();
+            if(time < 11){
+                return "Good Morning had your tiffin sir";
+            }
+
+            else if(time < 16){
+                return "good Afternoon had your lunch sir" ;
+            } else {
+                return "Good Night sleep well sir ";
+            }
+        }
+
+        document.getElementById("a").innerHTML = greetuser();
+        </script>
+</body>
+</html>
