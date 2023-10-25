@@ -1,0 +1,138 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+<body>
+    <script>
+        const fruits = "apple";
+        switch(fruits){
+            case "apple":
+                document.write("apple is good for health");
+                break;
+            case "mango":
+                document.write("mango is very tasty");
+                break;
+            case "strawberry":
+                document.write("it is in red color");
+                break;
+        }
+        </script>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+</head>
+<body>
+<label> Movie tickets cost 
+<select id="tickets" onchange="checkPrice()">
+    <option value="Leo">Leo</option>
+    <option value="Tiger nageswara Rao">Tiger nageswara Rao </option>
+    <option value="Bhagavanth Kesari">Bhagavanth Kesari</option>
+    <option value="Mad">Mad</option>
+    <option value="RRR">RRR</option>
+     <option value="ntg">ntg</option>
+</select>  
+</label> 
+<p id="price"></p>
+  
+  <script>
+    function checkPrice() {
+  const movie = document.getElementById("tickets").value;
+  let amount;
+  
+  switch(movie){
+    case "Leo":
+      amount ="250rs"
+      document.getElementById("price").innerHTML ="the leo movie "+ movie + "ticket is"+ amount;
+      break;
+      case "Tiger nageswara Rao":
+      amount ="350rs"
+      document.getElementById("price").innerHTML ="the  movie"+ movie + "ticket is"+ amount;
+      break;
+      
+      case "Bhagavanth Kesari":
+      amount ="450rs"
+      document.getElementById("price").innerHTML ="the  movie"+ movie + "ticket is"+ amount;
+      break;
+      
+      case "Mad":
+      amount ="450rs"
+      document.getElementById("price").innerHTML ="the  movie"+ movie + "ticket is"+ amount;
+      break;
+      
+       case "RRR":
+      amount ="550rs"
+      document.getElementById("price").innerHTML ="the  movie"+ movie + "ticket is"+ amount;
+      break;
+      
+    default:
+      document.getElementById("price").innerHTML="no movie yet " + movie + " availabe";
+  }
+}
+  </script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+</head>
+<body>
+<label> Movie tickets cost 
+<select id="tickets" onchange="checkPrice()">
+    <option value="Leo">Leo</option>
+    <option value="Tiger nageswara Rao">Tiger nageswara Rao </option>
+    <option value="Bhagavanth Kesari">Bhagavanth Kesari</option>
+    <option value="Mad">Mad</option>
+    <option value="RRR">RRR</option>
+     <option value="ntg">ntg</option>
+</select>  
+</label> 
+<p id="price"></p>
+  
+  <script>
+    function checkPrice() {
+  const movie = document.getElementById("tickets").value;
+  let amount;
+  
+  switch(movie){
+    case "Leo":
+      amount ="250rs"
+      document.getElementById("price").innerHTML ="the leo movie "+ movie + "ticket is"+ amount;
+      break;
+      case "Tiger nageswara Rao":
+      amount ="350rs"
+      document.getElementById("price").innerHTML ="the  movie"+ movie + "ticket is"+ amount;
+      break;
+      
+      case "Bhagavanth Kesari":
+      amount ="450rs"
+      document.getElementById("price").innerHTML ="the  movie"+ movie + "ticket is"+ amount;
+      break;
+      
+      case "Mad":
+      amount ="450rs"
+      document.getElementById("price").innerHTML ="the  movie"+ movie + "ticket is"+ amount;
+      break;
+      
+       case "RRR":
+      amount ="550rs"
+      document.getElementById("price").innerHTML ="the  movie"+ movie + "ticket is"+ amount;
+      break;
+      
+    default:
+      document.getElementById("price").innerHTML="no movie yet " + movie + " availabe";
+  }
+}
+  </script>
+</body>
+</html>
