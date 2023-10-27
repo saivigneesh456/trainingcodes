@@ -1,0 +1,14 @@
+* {box-sizing: border-box;}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  transition: background 0.2s linear;
+}
+
+body.dark {
+  background-color: black;} /* #9b59b6 */
+
+body.dark h1, body.dark .support a {color: white;}
+
+
